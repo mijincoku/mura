@@ -1,0 +1,19 @@
+{
+  "name": "ar-imagetrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aframe-gif-shader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mijincoku/imagetrack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mijincoku/imagetrack/issues"
+  },
+  "homepage": "https://github.com/mijincoku/imagetrack#readme"
+}
