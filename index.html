@@ -45,34 +45,27 @@
      <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
       <a-nft
         type="nft"        
-        url="https://cdn.glitch.global/24c94111-7a50-4163-a9e1-9d6d366b5663/nagura"
+        url="https://cdn.glitch.global/24c94111-7a50-4163-a9e1-9d6d366b5663/mura"
         smooth="true"
         smoothCount="10"
         smoothTolerance=".01"
         smoothThreshold="5"
       >
         <!-- <a-box position="80 80 0" scale="70 70 70" color="tomato" wireframe="true"  wireframe-linewidth=10  animation="property: rotation; to: 0 360 0; loop: true; dur: 20000" ></a-box> -->
-        <a-image
-        src="guide-nagura.png"
-        position="70 250 0" 
-        scale="200 200 200"
-        ></a-image>
+        <a-entity
+          position="0 0 0"
+          scale="1 1 1"
+        >
+          <a-video
+            src="mura.mov"
+            width="1"
+            height="1"
+            autoplay="true"
+            loop="true"
+          ></a-video>
+        </a-entity>
       </a-nft>
 
-     <a-nft
-        type="nft"        
-        url="https://cdn.glitch.global/24c94111-7a50-4163-a9e1-9d6d366b5663/hirakubo"
-        smooth="true"
-        smoothCount="10"
-        smoothTolerance=".01"
-        smoothThreshold="5" >
-        <!-- <a-box position="80 80 0" scale="70 70 70" color="tomato" wireframe="true"  wireframe-linewidth=10  animation="property: rotation; to: 0 360 0; loop: true; dur: 20000" ></a-box> -->
-        <a-image
-        src="guide-hirakubo.png"
-        position="70 250 0" 
-        scale="200 200 200"
-        ></a-image>
-      </a-nft>
       <!-- <a-nft
         type="nft"        
         url="https://cdn.glitch.global/b0199a65-1193-4f6e-a63c-d3a474a0c166/meishi"
